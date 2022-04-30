@@ -1,0 +1,93 @@
+html{
+    font-size: 15px;
+}
+
+body{
+    margin: 0 ;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-size: 1rem;
+    color: #2B2A2C;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.resume{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.resume__img{
+    width: 30%;
+    height: 30%;
+}
+.contacts{
+    margin-top: 15px;
+}
+.skills{
+    margin-top: 15px;
+}
+.project{
+    margin-top: 15px;
+}
+.adit__education{
+    margin-top: 15px;
+}
+.education{
+    margin-top: 15px;
+}
+.info{
+    margin-top: 15px;
+}
+.download{
+    text-decoration: none;
+    color: black;
+    
+}
+.pdf{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #6A696B;
+    background: none;
+    font-family: inherit;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 16px 20px;
+    min-width: 170px;
+    text-align: center;
+    transition: background-color 0.2s linear, color 0.2s linear, box-shadow 0.2s linear;
+    -webkit-transition: background-color 0.2s linear, color 0.2s linear, box-shadow 0.2s linear;
+    -moz-transition: background-color 0.2s linear, color 0.2s linear, box-shadow 0.2s linear;
+    -ms-transition: background-color 0.2s linear, color 0.2s linear, box-shadow 0.2s linear;
+    -o-transition: background-color 0.2s linear, color 0.2s linear, box-shadow 0.2s linear;
+    
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
+.pdf:focus{
+    outline: none;
+}
+.pdf:hover{
+    background-color: #5f94ff;
+    color: #ffffff;
+}
+.back{
+    width: 10px;
+    height: 10px;
+}
